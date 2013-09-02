@@ -3,8 +3,9 @@ ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'jquery-rails'
+gem 'devise', '3.1.0.rc2'
+gem 'simple_form'
 gem 'turbolinks'
-
 
 group :production do
 	gem 'pg'
